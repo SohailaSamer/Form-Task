@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    height: 80vh;
+    overflow: hidden;
+}
+#form-login ,#form-login2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 15px 45px;
+    background-color:rgb(152, 240, 236) ;
+    box-shadow: rgba(33, 33, 33, 0.3) 9px 6px 3px 3px;
+}
+#form-login label , #form-login2 label{
+    display: inline-block;
+    width: 80px;
+}
+#form-login > div , #form-login2 > div{
+    margin: 15px 0;
+}
+#form-login input[type='text'],#form-login input[type='password'],#form-login2 input[type='text'],#form-login2 input[type='password'] ,#form-login2 select{
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    padding: 5px;
+}
+#form-login input[type='submit'],#form-login2 input[type='submit']{
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    padding: 7px 20%; 
+    box-shadow: rgba(33, 33, 33, 0.3) 9px 6px 3px 3px;
+    background-color: rgb(42, 96, 243);
+    color: white;
+}
+#form-login input[type='submit']:hover, #form-login input[type='submit']:hover{
+    background-color: white;
+    color: rgb(42, 96, 243);
+}
